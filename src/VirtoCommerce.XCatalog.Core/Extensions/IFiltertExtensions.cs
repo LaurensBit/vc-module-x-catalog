@@ -46,11 +46,6 @@ namespace VirtoCommerce.XCatalog.Core.Extensions
                 return fieldName;
             }
 
-            if (filter is RangeFilter)
-            {
-                return fieldName.Split('_')[0];
-            }
-
             return fieldName;
         }
 
